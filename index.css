@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+video{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+html, body, .app, .section{
+  background-color: black;
+  color: white;
+  font-family: 'Comfortaa', cursive;
+}
+div.headerSection{
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  width: 98%;
+  border-width: 1px;
+  border-style: solid;
+  border-image: 
+  linear-gradient(
+    to bottom, 
+    #667eea 0%, #764ba2 100%
+  ) 20% 100%;
+}
+div.headerSection > img.logo{
+  position: absolute;
+  border-radius: 8px;
+  width: 55px;
+  height: 55px;
+  margin: 0;
+  top: 10px;
+  right: 15px;
+}
+div.headerSection > h1{
+  font-weight: bold;
+  left: 16px;
+}
+ul.ourp{
+  list-style-type: decimal;
+
+}
+.fp-controlArrow{
+  display: none;
+}
+#fp-nav > ul > li > a > span, body > div.app.fullpage-wrapper > div.section.fp-section.active.fp-completely > div.fp-slidesNav.fp-bottom > ul > li > a > span{
+  background-color: white;
+}
+#fp-nav > ul > li > a.active > span{
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+}
+body > div.app.fullpage-wrapper > div.section.fp-section.active.fp-completely > div.fp-slidesNav.fp-bottom > ul > li > a.active > span{
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+}
